@@ -114,19 +114,19 @@ span[data-ref="hl-5#"] + mark * {
 /*   font-size: 1em; */
 /* } */
 
-/* /\* PDF 标准内容处理 *\/ */
-/* .block-content[data-type=annotation] a.prefix-link:before, */
-/* .block-content[data-type=annotation] div.prefix-link, */
-/* .block-content[data-type=annotation] div.prefix-link::before, */
-/* .block-content[data-type=annotation] [data-hl-type=area] .hl-page{ */
-/* 	display: none; */
-/* } */
+/* PDF 标准内容处理 */
+.block-content[data-type=annotation] a.prefix-link:before,
+.block-content[data-type=annotation] div.prefix-link,
+.block-content[data-type=annotation] div.prefix-link::before,
+.block-content[data-type=annotation] [data-hl-type=area] .hl-page{
+	display: none;
+}
 
-/* /\* 引用链接只保留背景色，去掉下划线 *\/ */
-/* .block-content-wrapper :is(.block-ref, .external-link){ */
-/*   border-bottom: 0px !important; */
-/*   background: transparent !important; */
-/* } */
+/* 引用链接只保留背景色，去掉下划线 */
+.block-content-wrapper :is(.block-ref, .external-link){
+  border-bottom: 0px !important;
+  background: transparent !important;
+}
 
 /* div.flex.flex-col .breadcrumb { */
 /*   display: none; */
