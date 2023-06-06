@@ -3,11 +3,11 @@
 /* Personal settingPersonal setting */
 /* Fonts */
 
-#root>div,
-html,
-body {
-    font-family: var(--ls-font-family);
-}
+/* #root>div, */
+/* html, */
+/* body { */
+/*     font-family: var(--ls-font-family); */
+/* } */
 
 
 /* Word wrapper */
