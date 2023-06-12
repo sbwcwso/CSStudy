@@ -128,6 +128,12 @@ span.block-ref span.canceled {
   background: transparent !important;
 }
 
+
+/* 图片背景修改为白色 */
+img {
+  background: white;
+}
+
 div.flex.flex-col .breadcrumb {
   display: none;
 }
