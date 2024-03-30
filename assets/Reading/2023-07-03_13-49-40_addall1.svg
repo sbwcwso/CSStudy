@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet href="../../../web/svg-snapshot-diagram.css" type="text/css"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.1-dev (f9311a1, 2019-12-25)"
+   sodipodi:docname="addall1.svg"
+   id="svg166"
+   version="1.1"
+   preserveAspectRatio="xMinYMin meet"
+   height="201.98718"
+   width="199.51758">
+  <style
+     id="style224">
+        /* this is a minimal stylesheet that makes the SVG file editable in InkScape;
+           for the full stylesheet, make sure this file contains
+           <?xml-stylesheet href="../../../web/svg-snapshot-diagram.css" type="text/css"?>
+           as the second line
+           (warning: InkScape deletes it!)
+        */
+
+        rect {
+            stroke: black;
+            fill: none;
+        }
+
+        path.arrow {
+            stroke: black;
+            fill: none;
+            marker-end: url(#arrowhead);
+        }
+
+        #arrowhead {
+            stroke: black;
+            fill: none;
+            filter: none;
+        }
+
+        text {
+            font-family: sans-serif;
+            font-size: 12pt;
+            text-anchor: middle;
+            dominant-baseline: middle;
+        }
+
+        text.type, text.function {
+            font-size: 80%;
+        }
+
+  </style>
+  <metadata
+     id="metadata170">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     fit-margin-left="10"
+     fit-margin-top="10"
+     inkscape:current-layer="svg166"
+     inkscape:window-maximized="0"
+     inkscape:window-y="23"
+     inkscape:window-x="0"
+     inkscape:cy="98.420502"
+     inkscape:cx="165.71291"
+     inkscape:zoom="2.6702483"
+     showgrid="false"
+     id="namedview168"
+     inkscape:window-height="787"
+     inkscape:window-width="1551"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs116">
+    <marker
+       orient="auto"
+       refY="4"
+       refX="8"
+       markerHeight="8"
+       markerWidth="10"
+       id="arrowhead">
+      <path
+         inkscape:connector-curvature="0"
+         id="path108"
+         d="M 0,8 8,4 0,0" />
+    </marker>
+    <filter
+       id="double">
+      <feMorphology
+         id="feMorphology111"
+         radius="1"
+         operator="dilate"
+         result="Dilated"
+         in="SourceGraphic" />
+      <feComposite
+         id="feComposite113"
+         operator="xor"
+         result="Out"
+         in2="Dilated"
+         in="SourceGraphic" />
+    </filter>
+    <marker
+       orient="auto"
+       refY="4"
+       refX="8"
+       markerHeight="8"
+       markerWidth="10"
+       id="arrowhead-6">
+      <path
+         inkscape:connector-curvature="0"
+         id="path214"
+         d="M 0,8 8,4 0,0" />
+    </marker>
+    <marker
+       id="arrowhead-6-1"
+       markerWidth="10"
+       markerHeight="8"
+       refX="8"
+       refY="4"
+       orient="auto">
+      <path
+         d="M 0,8 8,4 0,0"
+         id="path214-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <g
+     id="g126"
+     class="object"
+     transform="translate(-2.6073952,148.35565)">
+    <text
+       id="text120"
+       y="12"
+       x="45.585938"
+       class="type">String</text>
+    <rect
+       y="-0.374497"
+       x="13.107395"
+       id="rect122"
+       rx="20"
+       height="43.506035"
+       width="62.710094" />
+    <text
+       id="text124"
+       y="30"
+       x="45.585938"
+       class="string">&quot;a&quot;</text>
+  </g>
+  <g
+     id="g134"
+     class="object"
+     transform="translate(108.56448,148.35565)">
+    <text
+       id="text128"
+       y="12"
+       x="46.03125"
+       class="type">String</text>
+    <rect
+       y="1.123491"
+       x="14.97988"
+       id="rect130"
+       rx="20"
+       height="39.38657"
+       width="65.473213" />
+    <text
+       id="text132"
+       y="30"
+       x="46.03125"
+       class="string">&quot;b&quot;</text>
+  </g>
+  <g
+     id="g160"
+     class="object"
+     transform="translate(20.978542,44.485342)">
+    <text
+       id="text144"
+       y="12"
+       x="62"
+       class="type">List&lt;String&gt;</text>
+    <rect
+       y="0"
+       x="0"
+       id="rect146"
+       rx="20"
+       height="48"
+       width="124" />
+    <text
+       id="text148"
+       y="30"
+       x="22"
+       class="label">0</text>
+    <text
+       id="text150"
+       y="30"
+       x="62"
+       class="label">1</text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path154"
+       d="m 22,36 v 67.87031"
+       class="arrow _" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path156"
+       d="m 62,36 c 17.695733,27.981694 66.73324,44.643842 71.99169,66.74682"
+       class="arrow _" />
+  </g>
+  <text
+     id="text162"
+     y="18.485342"
+     x="32.978542"
+     class="label">list1</text>
+  <path
+     sodipodi:nodetypes="cc"
+     inkscape:connector-curvature="0"
+     id="path254"
+     d="m 49.249578,16.773302 c 18.841727,9.308116 16.608009,10.164104 20.726017,28.676569"
+     class="arrow _" />
+  <text
+     style="font-size:16px;font-family:sans-serif;dominant-baseline:middle;text-anchor:middle"
+     class="label"
+     x="129.65918"
+     y="17.792969"
+     id="text162-9">list2</text>
+  <path
+     class="arrow _"
+     d="m 109.60402,17.578915 c -11.867015,7.061134 -8.85778,9.040613 -14.851185,26.804084"
+     id="path254-0"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>
