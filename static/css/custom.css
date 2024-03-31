@@ -71,7 +71,7 @@ span[data-ref="hl-5#"] + mark * {
 /*   --ct-inline-code-font-color: yellow !important; */
 /* } */
 
-.table-wrapper {
+/* .table-wrapper {
   width: 100% !important;
   max-width: 100% !important;
 }
@@ -93,9 +93,10 @@ table td {
   text-decoration: none;
 }
 
+// 引用块不显示时间信息和 TODO 相关的状态标志
 span.block-ref :is(div.text-sm, input.form-checkbox, a.marker-switch.block-marker) {
   display: none;
-}  /* 引用块不显示时间信息和 TODO 相关的状态标志 */
+}  
 
 span.block-ref span.canceled {
   text-decoration: none;
@@ -103,30 +104,31 @@ span.block-ref span.canceled {
 
 .block-ref-wrap.inline {
   display: inline-block;
-}
+} 
+*/
 
 /* 引用块不再是斜体 */
-.content .block-ref{
+/* .content .block-ref{
   font-style: normal;
-} 
+}  */
 
-.block-ref :is(h1,h2,h3,h4,h5,h6) {
+/* .block-ref :is(h1,h2,h3,h4,h5,h6) {
   font-size: 1em;
-}
+} */
 
 /* PDF 标准内容处理 */
-.block-content[data-type=annotation] a.prefix-link:before,
+/* .block-content[data-type=annotation] a.prefix-link:before,
 .block-content[data-type=annotation] div.prefix-link,
 .block-content[data-type=annotation] div.prefix-link::before,
 .block-content[data-type=annotation] [data-hl-type=area] .hl-page{
 	display: none;
-}
+} */
 
 /* 引用链接只保留背景色，去掉下划线 */
-.block-content-wrapper :is(.block-ref, .external-link){
+/* .block-content-wrapper :is(.block-ref, .external-link){
   border-bottom: 0px !important;
   background: transparent !important;
-}
+} */
 
 
 /* 图片背景修改为白色 */
@@ -134,7 +136,7 @@ img {
   background: white;
 }
 
-div.flex.flex-col .breadcrumb {
+/* div.flex.flex-col .breadcrumb {
   display: none;
 }
 
@@ -170,9 +172,9 @@ kbd {
     color:#333;
     display:inline-block;
     font-family:Arial,Helvetica,sans-serif;
-    /* font-size:11px; */
-    /* line-height:1.4; */
-    /* margin:0 .1em; */
+    font-size:11px; 
+    line-height:1.4;
+    margin:0 .1em;
     padding: 0em .3em;
     text-shadow:0 1px 0 #fff;
-}
+} */
