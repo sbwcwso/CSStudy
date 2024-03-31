@@ -15,8 +15,6 @@
 /*     font-family: var(--ls-font-family); */
 /* } */
 
-
-
 :root {
     --ct-code-font-family: Fira Code, 'Noto Sans SC', Monaco, Menlo, Consolas, 'COURIER NEW', "等距更纱黑体 SC", monospace;
     --ls-font-family: 'inter', "等距更纱黑体 SC";
