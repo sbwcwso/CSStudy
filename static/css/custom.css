@@ -4,6 +4,7 @@
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/fira-code');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/fira-sans');
 @import url('https://cdn.jsdelivr.net/npm/@fontsource/noto-sans-sc');
+@import url('https://cdn.jsdelivr.net/npm/@fontsource/inter');
 
 /* Personal settingPersonal setting */
 /* Fonts */
@@ -18,14 +19,15 @@
 
 :root {
     --ct-code-font-family: Fira Code, 'Noto Sans SC', Monaco, Menlo, Consolas, 'COURIER NEW', "等距更纱黑体 SC", monospace;
-     /* --ls-font-family: 'fira sans', 'segoe UI Emoji', 'sarasa ui sc', 'sarasa ui tc', sans-serif; */
-    --ls-font-family: 'fira sans', 'sarasa ui sc', 'sarasa ui tc', sans-serif;
+    --ls-font-family: 'inter', "等距更纱黑体 SC";
+    --ls-font-family: 'fira sans', 'sarasa ui sc', 'sarasa ui tc', "等距更纱黑体 SC";
 }
 
 #root>div,
 html,
 body {
     font-family: var(--ls-font-family);
+    font-size: 18px;
 }
 
 :not(pre)>code,
