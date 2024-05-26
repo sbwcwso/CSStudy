@@ -28,10 +28,10 @@ body {
     font-size: 18px;
 }
 
-:not(pre)>code,
 .CodeMirror {
     font-family: var(--ct-code-font-family);
 }
+
 
 
 /* Word wrapper */
