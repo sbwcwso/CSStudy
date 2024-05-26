@@ -20,6 +20,7 @@
     --ls-font-family: 'inter', "等距更纱黑体 SC";
     --ls-font-family: 'fira sans', 'sarasa ui sc', 'sarasa ui tc', "等距更纱黑体 SC";
     --ls-main-content-max-width-wide: 100%;
+    --ls-main-content-max-width: 100%;
 }
 
 #root>div,
