@@ -19,6 +19,7 @@
     --ct-code-font-family: Fira Code, 'Noto Sans SC', Monaco, Menlo, Consolas, 'COURIER NEW', "等距更纱黑体 SC", monospace;
     --ls-font-family: 'inter', "等距更纱黑体 SC";
     --ls-font-family: 'fira sans', 'sarasa ui sc', 'sarasa ui tc', "等距更纱黑体 SC";
+    --ls-main-content-max-width-wide: 100%;
 }
 
 #root>div,
