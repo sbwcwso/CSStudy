@@ -121,15 +121,15 @@ img {
   background: transparent !important;
 }
 
-.content :not(pre)>code {
-  color: yellow;
-}
+/* .content :not(pre)>code { */
+/*   color: yellow; */
+/* } */
 
 .dark-theme .content .external-link{
   color: var(--ls-primary-text-color,#24292e);
   border-bottom: 0px;
 }
 
-:root{
-  --ct-inline-code-font-color: yellow !important;
-}
+/* :root{ */
+/*   --ct-inline-code-font-color: yellow !important; */
+/* } */
