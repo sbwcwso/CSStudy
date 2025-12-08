@@ -35,7 +35,6 @@ body {
 }
 
 
-
 /* Word wrapper */
 span[data-ref="red#"],
 span[data-ref="blue#"],
@@ -71,14 +70,16 @@ span[data-ref="hl-1#"] + mark * {
   background: deepskyblue !important;
   color: #262626 !important;
 }
+
 span[data-ref="hl-2#"] + mark,
 span[data-ref="hl-2#"] + mark * {
-  background: chocolate !important;
+  /* background: chocolate !important; */
+  background: #FFD27A !important;
   color: #262626 !important;
 }
 span[data-ref="hl-3#"] + mark,
 span[data-ref="hl-3#"] + mark * {
-  background: #ff813d !important;
+  background: #3EE0C4 !important;
   color: #262626 !important;
 }
 span[data-ref="hl-4#"] + mark,
@@ -88,7 +89,7 @@ span[data-ref="hl-4#"] + mark * {
 }
 span[data-ref="hl-5#"] + mark,
 span[data-ref="hl-5#"] + mark * {
-  background: #838080 !important;
+  background: #BFBFBF !important;
   color: #262626 !important;
 }
 /* End word wrapper */
