@@ -1,0 +1,288 @@
+{:highlights
+ [{:id #uuid "636375b1-bf21-408d-952a-6ba37a02d8fb",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 98.328125,
+     :y1 94.703125,
+     :x2 379.9593811035156,
+     :y2 127.703125,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 98.328125,
+      :y1 94.703125,
+      :x2 379.9593811035156,
+      :y2 127.703125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content {:text "Test Your Algorithm"},
+   :properties {:color "yellow"}}
+  {:id #uuid "636375e2-3fbc-47c4-bf81-e4e94f19e8b4",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 164.8406982421875,
+     :y1 275.234375,
+     :x2 778.9164428710938,
+     :y2 297.234375,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 164.8406982421875,
+      :y1 275.234375,
+      :x2 778.9164428710938,
+      :y2 297.234375,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "The goal here is to find out if you mis-generalized before you proceed."},
+   :properties {:color "yellow"}}
+  {:id #uuid "63637614-2bc1-4ccb-89dd-0f537e6e0e77",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 851.3484191894531,
+     :y2 409.78125,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 16,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 313.7213439941406,
+      :y1 360.265625,
+      :x2 851.3484191894531,
+      :y2 382.265625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 98.328125,
+      :y1 387.78125,
+      :x2 187.01844787597656,
+      :y2 409.78125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Testing on these same examples would not have revealed any problems."},
+   :properties {:color "purple"}}
+  {:id #uuid "63637a24-8234-4f7e-ab7f-68304dcaf41b",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 882.9566650390625,
+     :y2 486.078125,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 16,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 98.328125,
+      :y1 435.3125,
+      :x2 879.4183959960938,
+      :y2 457.3125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 98.328125,
+      :y1 464.078125,
+      :x2 882.9566650390625,
+      :y2 486.078125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "In doing this testing, you want to strike a balance—enough testing to give you confidence that your algorithm is correct before you proceed, but not an excessive amount of testing."},
+   :properties {:color "yellow"}}
+  {:id #uuid "63637b35-678f-41b2-9999-a7b72015d66d",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 98.328125,
+     :y1 651.65625,
+     :x2 688.1138305664062,
+     :y2 673.65625,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 98.328125,
+      :y1 651.65625,
+      :x2 688.1138305664062,
+      :y2 673.65625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Here are some guidelines to help you devise a good set of test cases"},
+   :properties {:color "yellow"}}
+  {:id #uuid "63637b45-5a84-46fe-b94d-2d8b03461dc3",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 844.94091796875,
+     :y2 749.953125,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 16,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 700.4375,
+      :x2 844.94091796875,
+      :y2 722.4375,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 727.953125,
+      :x2 244.409423828125,
+      :y2 749.953125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Try test cases that are qualitatively different from what you used to design your algorithm. "},
+   :properties {:color "blue"}}
+  {:id #uuid "63637b80-c6d8-4a88-b50a-baecb09bfa84",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 814.6521606445312,
+     :y2 881.265625,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 0,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 859.265625,
+      :x2 814.6521606445312,
+      :y2 881.265625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Try to find corner cases —inputs where your algorithm behaves differently. "},
+   :properties {:color "blue"}}
+  {:id #uuid "63637baa-83af-4748-ad4d-3d55971a2666",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 874.2523803710938,
+     :y2 1041.34375,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 0,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 16,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 991.828125,
+      :x2 874.2523803710938,
+      :y2 1013.828125,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 1019.34375,
+      :x2 584.7888793945312,
+      :y2 1041.34375,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Try to obtain statement coverage —that is, between all of your test cases, each line in the algorithm should be executed at least once. "},
+   :properties {:color "yellow"}}
+  {:id #uuid "63637bdf-794a-4e3d-83e4-5a1bd612c58e",
+   :page 1,
+   :position
+   {:bounding
+    {:x1 0,
+     :y1 0,
+     :x2 887.9480590820312,
+     :y2 1201.421875,
+     :width 991.5999333333333,
+     :height 1403.1999666666666},
+    :rects
+    ({:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 0,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 0,
+      :y1 0,
+      :x2 0,
+      :y2 16,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 1095.625,
+      :x2 863.11279296875,
+      :y2 1117.625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 1124.390625,
+      :x2 887.9480590820312,
+      :y2 1146.390625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 1151.90625,
+      :x2 880.3076782226562,
+      :y2 1173.90625,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}
+     {:x1 148.34375,
+      :y1 1179.421875,
+      :x2 777.5044555664062,
+      :y2 1201.421875,
+      :width 991.5999333333333,
+      :height 1403.1999666666666}),
+    :page 1},
+   :content
+   {:text
+    "Examine your algorithm and see if there are any apparent oddities in its behavior(such as it always answers “true”, it never answers “0” even though that seems like a plausible answer), and think about whether or not you can get a test case where the right answer is something that your algorithm cannot give as its answer"},
+   :properties {:color "yellow"}}], 
+ :extra {:page 1}}

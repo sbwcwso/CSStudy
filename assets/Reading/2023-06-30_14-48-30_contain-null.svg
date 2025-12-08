@@ -1,0 +1,24 @@
+<?xml-stylesheet href="../../../web/svg-style.css" type="text/css"?>
+<svg width="350" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <marker refY="50" refX="50" markerHeight="10" markerWidth="10" viewBox="0 0 100 100" se_type="rightarrow" orient="auto" markerUnits="strokeWidth" id="se_marker_end_svg_12">
+   <path stroke-width="10" stroke="#000000" fill="#000000" d="m100,50l-100,40l30,-40l-30,-40z"/>
+  </marker>
+ </defs>
+ <g>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_1" y="20" x="40" fill="#000000">names</text>
+  <polyline marker-end="url(#se_marker_end_svg_12)" se:connector="svg_1 svg_5" fill="none" stroke="#000000" points="76 22 155 45" id="svg_12"/>
+  <rect stroke="#000000" id="svg_5" height="44" width="44" y="30" x="160" fill-opacity="0" fill="#000000"/>
+  <polyline marker-end="url(#se_marker_end_svg_12)" stroke="#000000" se:connector="svg_5 svg_17" fill="none" points="182 52 264 79" id="svg_18"/>
+  <text id="svg_17" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="94" x="288" fill="#7f7f7f">null</text>
+  
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_2" y="119" x="40" fill="#000000">sizes</text>
+  <polyline marker-end="url(#se_marker_end_svg_12)" se:connector="svg_2 svg_3" fill="none" stroke="#000000" points="66 121 126 144" id="svg_13"/>
+  <ellipse fill-opacity="0" ry="48" rx="124" id="svg_3" cy="178" cx="225" stroke="#000000" fill="#000000"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_14" y="170" x="230" fill="#000000">ArrayList&lt;Double&gt;</text>
+  <text id="svg_15" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="210" x="190" fill="#000000">0</text>
+  <polyline marker-end="url(#se_marker_end_svg_12)" se:connector="svg_15 svg_16" fill="none" stroke="#000000" points="190 215 190 260" id="svg_19"/>
+  <text id="svg_16" xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" y="285" x="190" fill="#7f7f7f">null</text>
+ </g>
+</svg>
